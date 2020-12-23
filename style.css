@@ -6,3 +6,6 @@ svg{
     fill: darkblue;
     width: 50px;
 }
+.to-right{
+    rotate: 50;
+}
