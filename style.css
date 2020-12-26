@@ -1,5 +1,9 @@
+@import url("fonts.css");
+
 body{
     background: lightyellow;
+    font-family: Roboto;
+    font-size: 24px;
 }
 
 svg{
@@ -8,4 +12,14 @@ svg{
 }
 .to-right{
     transform: rotate(-90deg);
+}
+.italic{
+    font-style: italic;
+}
+.bold{
+    font-weight: 700;
+}
+.bold_italic{
+    font-weight: 700;
+    font-style: italic;
 }

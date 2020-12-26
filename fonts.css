@@ -1,0 +1,33 @@
+/* cyrillic-ext */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 100;
+    font-display: swap;
+    src: url(Roboto/Roboto-Thin.ttf) format('woff2');
+  }
+
+  @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 100;
+    font-display: swap;
+    src: url(Roboto/Roboto-ThinItalic.ttf) format('woff2');
+ }
+
+ @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(Roboto/Roboto-Thin.ttf) format('woff2');
+  }
+  
+ @font-face {
+    font-family: 'Roboto';
+    font-style: italic;
+    font-weight: 700;
+    font-display: swap;
+    src: url(Roboto/Roboto-BlackItalic.ttf) format('woff2');
+  }
+
