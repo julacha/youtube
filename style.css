@@ -1,14 +1,15 @@
 @import url("fonts.css");
 
 body{
-    background: lightyellow;
+    background: #F1F1F1;
     font-family: Roboto;
     font-size: 24px;
 }
 
 svg{
-    fill: darkblue;
-    width: 50px;
+color: #606060;
+margin-left: 26px;
+margin-right: 26px;
 }
 .to-right{
     transform: rotate(-90deg);
@@ -28,7 +29,52 @@ svg{
 }
 .left_side{
     width: 240px;
+    background: #FFFFFF;
 }
 .row{
     display: flex;
+    align-items: center;
+    margin-bottom: 24px;
+}
+.text{
+    font-weight: normal;
+    font-size: 14px;
+}
+.ellipse{
+    height: 24px;
+    width: 24px;
+    border-radius: 50%;
+    background: #0572EF;
+    margin-left: 24px;
+    margin-right: 24px;
+}
+.circle{
+    height: 4px;
+    width: 4px;
+    border-radius: 50%;
+    background: #2860CD;
+    margin-left: 83px;
+}
+.subscr{
+    color: #606060;
+    margin-left: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+.more{
+    color: #606060;
+    margin-left: 24px;
+    margin-bottom: 20px;
+    font-weight: 500;
+    font-size: 14px;
+}
+p{
+    color: #606060;
+    font-weight: 500;
+    font-size: 12px;
+    margin-left: 26px;
+    height: 100px;
+    width: 165px;
+    text-align: left;
 }
