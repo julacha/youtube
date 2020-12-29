@@ -7,34 +7,55 @@ body{
     display: flex;
 }
 
-svg{
-color: #606060;
-margin-left: 26px;
-margin-right: 26px;
-}
 .to-right{
     transform: rotate(-90deg);
 }
-.italic{
-    font-style: italic;
-}
-.bold{
-    font-weight: 700;
-}
-.bold_italic{
-    font-weight: 700;
-    font-style: italic;
-}
-.youtube{
+.first_row{
+    width: 100vh;
     text-decoration: none;
-    color:  #2860CD;
-    margin-left: 26px;
 }
-.left_side{
+.left_menu{
     width: 240px;
     background: #FFFFFF;
-    padding-top: 0;
 }
+.left_menu a {
+    text-decoration: none;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 14px;
+    display: block;
+    padding: 12px 0;
+    color:#000000;
+}
+.left_menu a:hover{
+    background: rgba(0, 0, 0, 0.05);
+}
+.left_menu a:active {
+    background: rgba(0, 0, 0, 0.1);
+  }
+.left_menu a svg{
+    fill: #606060;
+    margin-left: 26px;
+}
+.left_menu a.active svg {
+    fill: #f00;
+  }
+
+.left_menu a .text{
+    color: #606060;
+    margin-left: 26px;
+}
+
+.side-menu a .icon {
+    margin-left: 26px;
+    display: inline-block;
+    width: 20px;
+    text-align: center;
+    vertical-align: middle;
+}
+
 #logo{
     padding-top: 19px;
     margin-bottom: 43.59px;
@@ -48,7 +69,7 @@ margin-right: 26px;
     font-weight: normal;
     font-size: 14px;
 }
-#library{
+.library{
     margin-top: 24px;
 }
 .ellipse{
@@ -89,16 +110,16 @@ margin-right: 26px;
     font-weight: 500;
     font-size: 14px;
 }
-#show{
+.show{
     margin-bottom: 20px;
 }
-#live{
+.live{
     margin-bottom: 20px;
 }
-#setting{
+.setting{
     margin-top: 20px;
 }
-#feedback{
+.feedback{
     margin-bottom: 20px;
 }
 p{
