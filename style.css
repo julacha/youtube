@@ -4,15 +4,71 @@ body{
     background: #F1F1F1;
     font-family: Roboto;
     font-size: 24px;
-    display: flex;
 }
 
 .to-right{
     transform: rotate(-90deg);
 }
 .first_row{
-    width: 100vh;
+    background: #FFF;
+    display: flex;
+    justify-content: space-between;
+}
+.first_row a{
     text-decoration: none;
+}
+.menu_logo{
+    display: flex;
+}
+.first_row a .menu{
+    padding-top: 22px;
+    padding-bottom: 33px;
+    display: inline-block;
+    margin-left: 27px;
+}
+.first_row a .logo{
+    padding-top: 19px;
+    margin-left: 28px;
+    padding-bottom: 31.59px;
+    display: inline-block;
+}
+form{
+    display: flex;
+    margin-top: 16px;
+}
+.search_bttn{
+    /* height: 30px; */
+    width: 63px;
+    background: #F8F8F8;
+    border: 1px solid #CCCCCC;
+    border-radius: 1px 0px 0px 1px;
+    transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+.search_input{
+    /* height: 30px; */
+    top: 13px;
+    background: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
+    border-radius: 1px 0px 0px 1px;
+}
+.top_menu{
+    display: flex;
+}
+.top_menu span{
+    fill:#606060;
+    margin-right: 31px;
+    margin-top: 22px;
+}
+.ellipse_main{
+    width: 32px;
+    height: 32px;
+    margin-right: 30px;
+    top: 12px;
+    border: 1px solid #0572EF;
+    border-radius: 50%;
+    background: #0572EF;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .left_menu{
     width: 240px;
@@ -43,11 +99,6 @@ body{
     fill: #f00;
   }
 
-.left_menu a .text{
-    color: #606060;
-    margin-left: 26px;
-}
-
 .side-menu a .icon {
     margin-left: 26px;
     display: inline-block;
@@ -56,16 +107,20 @@ body{
     vertical-align: middle;
 }
 
-#logo{
-    padding-top: 19px;
-    margin-bottom: 43.59px;
+.left_menu a .text{
+    display: inline-block;
+    margin-left: 26px;
+    vertical-align: middle;
+    font-weight: normal;
+    font-size: 14px;
 }
+
 .row{
     display: flex;
     align-items: center;
-    margin-bottom: 24px;
+    margin: 12px 0;
 }
-.text{
+.row .text{
     font-weight: normal;
     font-size: 14px;
 }
