@@ -3,7 +3,6 @@
 body{
     background: #F1F1F1;
     font-family: Roboto;
-    font-size: 24px;
 }
 
 .to-right{
@@ -13,6 +12,9 @@ body{
     background: #FFF;
     display: flex;
     justify-content: space-between;
+    align-items: center;
+    padding-top: 0.8571em;
+    padding-bottom: 0.8571em;
 }
 .first_row a{
     text-decoration: none;
@@ -21,32 +23,43 @@ body{
     display: flex;
 }
 .first_row a .menu{
-    padding-top: 22px;
-    padding-bottom: 33px;
     display: inline-block;
-    margin-left: 27px;
+    margin-left: 1.9283em;
 }
 .first_row a .logo{
-    padding-top: 19px;
-    margin-left: 28px;
-    padding-bottom: 31.59px;
+    margin-left: 2em;
     display: inline-block;
+}
+.menu{
+    width: 18px;
+}
+.logo{
+    width:78px; 
+}
+.search{
+    width:15px;
+}
+.video{
+    width:18px;
+}
+.square{
+    width:16px;
+}
+.bell{
+    width:16px;
 }
 form{
     display: flex;
-    margin-top: 16px;
 }
+
 .search_bttn{
-    /* height: 30px; */
-    width: 63px;
+    width: 4.5em;
     background: #F8F8F8;
     border: 1px solid #CCCCCC;
     border-radius: 1px 0px 0px 1px;
     transform: matrix(-1, 0, 0, 1, 0, 0);
 }
 .search_input{
-    /* height: 30px; */
-    top: 13px;
     background: #FFFFFF;
     border: 1px solid #CCCCCC;
     box-shadow: inset 0px 4px 3px rgba(0, 0, 0, 0.05);
@@ -55,23 +68,23 @@ form{
 .top_menu{
     display: flex;
 }
-.top_menu span{
+.top_menu a span{
     fill:#606060;
-    margin-right: 31px;
-    margin-top: 22px;
+    margin-left: 2.2143em;
+    text-align: center;
+    vertical-align: middle;
 }
 .ellipse_main{
-    width: 32px;
-    height: 32px;
-    margin-right: 30px;
-    top: 12px;
+    width: 2.2857em;
+    height: 2.2857em;
+    margin-right: 2.1429em;
     border: 1px solid #0572EF;
     border-radius: 50%;
     background: #0572EF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .left_menu{
-    width: 240px;
+    width: 17.1429em;
     background: #FFFFFF;
 }
 .left_menu a {
@@ -79,10 +92,9 @@ form{
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
-    font-size: 14px;
-    line-height: 14px;
+    line-height: 1em;
     display: block;
-    padding: 12px 0;
+    padding: 0.8571em 0;
     color:#000000;
 }
 .left_menu a:hover{
@@ -93,103 +105,103 @@ form{
   }
 .left_menu a svg{
     fill: #606060;
-    margin-left: 26px;
+    margin-left: 1.8571em;
 }
 .left_menu a.active svg {
     fill: #f00;
   }
 
-.side-menu a .icon {
-    margin-left: 26px;
+.left-menu a .icon {
+    margin-left: 1.8571em;
     display: inline-block;
-    width: 20px;
+    width: 1.4283em;
     text-align: center;
     vertical-align: middle;
 }
 
 .left_menu a .text{
     display: inline-block;
-    margin-left: 26px;
+    margin-left: 1.8571em;
     vertical-align: middle;
     font-weight: normal;
-    font-size: 14px;
 }
 
 .row{
     display: flex;
     align-items: center;
-    margin: 12px 0;
+    margin: 0.8571em 0;
 }
 .row .text{
     font-weight: normal;
-    font-size: 14px;
+    font-size: 1em;
 }
 .library{
-    margin-top: 24px;
+    margin-top: 1.7143em;
 }
 .ellipse{
-    height: 23px;
-    width: 23px;
+    height: 1.6429em;
+    width: 1.6429em;
     border: 1px solid #0572EF;
     border-radius: 50%;
     background: #0572EF;
-    margin-left: 24px;
-    margin-right: 24px;
+    margin-left: 1.7143em;
+    margin-right: 1.7143em;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 .ellipse:hover{
     border: 1px solid #4A90E2;
 }
 
-
 .circle{
-    height: 4px;
-    width: 4px;
+    height: 0.2857em;
+    width: 0.2857em;
     border-radius: 50%;
     background: #2860CD;
-    margin-left: 83px;
+    margin-left:5.9286em;
 }
 .subscr{
     color: #606060;
-    margin-left: 24px;
-    margin-bottom: 20px;
-    margin-top: 16px;
+    margin-left: 1.7143em;
+    margin-bottom: 1.4286em;
+    margin-top: 1.1429em;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1em;
 }
 .more{
     color: #606060;
-    margin-left: 24px;
-    margin-bottom: 20px;
-    margin-top: 16px;
+    margin-left: 1.7143em;
+    margin-bottom: 1.4286em;
+    margin-top: 1.1429em;
     font-weight: 500;
-    font-size: 14px;
+    font-size: 1em;
 }
 .show{
-    margin-bottom: 20px;
+    margin-bottom: 1.7146em;
 }
 .live{
-    margin-bottom: 20px;
+    margin-bottom: 1.4286em;
 }
 .setting{
-    margin-top: 20px;
+    margin-top: 1.4286em;
 }
 .feedback{
-    margin-bottom: 20px;
+    margin-bottom: 1.4286em ;
 }
 p{
     color: #606060;
     font-weight: 500;
-    font-size: 12px;
-    margin-left: 26px;
-    margin-left: 18px;
-    height: 100px;
-    width: 165px;
+    font-size: 0.8571em;
+    margin-left: 1.8571em;
+    margin-left: 1.2857em;
+    height: 7.1429em;
+    width: 11.7857em;
     text-align: left;
-    line-height: 14px;
+    line-height: 1em;
 }
 .line{
     background: #E5E5E5;
-    height: 1px;
-
+}
+@media only screen and (max-width: 600px) {
+    .left_menu a {
+        font-size: 40px;
 }
