@@ -5,9 +5,7 @@ body{
     font-family: Roboto;
 }
 
-.to-right{
-    transform: rotate(-90deg);
-}
+/* start first_row */
 .first_row{
     background: #FFF;
     display: flex;
@@ -51,7 +49,6 @@ body{
 form{
     display: flex;
 }
-
 .search_bttn{
     width: 4.5em;
     background: #F8F8F8;
@@ -83,6 +80,8 @@ form{
     background: #0572EF;
     box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
+/* first_row end */
+/* left_enu start */
 .left_menu{
     width: 17.1429em;
     background: #FFFFFF;
@@ -117,6 +116,9 @@ form{
     width: 1.4283em;
     text-align: center;
     vertical-align: middle;
+}
+.to-right{
+    transform: rotate(-90deg);
 }
 .home{
     width: 1.4286em;
@@ -180,7 +182,40 @@ form{
 }
 .left_menu.active .text {
     display: none;
- }
+}
+.left_menu.active .subsc_block{
+    display: none;
+}
+.left_menu.active .more_block{
+    display: none;
+}
+.left_menu.active .set_block{
+    display: none;
+}
+.left_menu.active .more{
+    display: none;
+}
+.left_menu.active .show_41{
+    display: none;
+}
+.left_menu.active p{
+    display: none;
+}
+.left_menu.active .line{
+    display: none;
+}
+.left_menu.active .history{
+    display: none;
+}
+.left_menu.active .video{
+    display: none;
+}
+.left_menu.active .later{
+    display: none;
+}
+.left_menu.active .liked{
+    display: none;
+}
 .row{
     display: flex;
     align-items: center;
@@ -206,7 +241,6 @@ form{
 .ellipse:hover{
     border: 1px solid #4A90E2;
 }
-
 .circle{
     height: 0.2857em;
     width: 0.2857em;
@@ -256,6 +290,7 @@ p{
 .line{
     background: #E5E5E5;
 }
+/* left_enu end */ 
 @media only screen and (max-width: 600px) {
     .left_menu a {
         font-size: 10px;
