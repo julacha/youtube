@@ -118,14 +118,69 @@ form{
     text-align: center;
     vertical-align: middle;
 }
-
+.home{
+    width: 1.4286em;
+}
+.trending{
+    width: 1em;
+}
+.subscr{
+    width: 1.2143em;
+}
+.libr{
+    width: 1.4286em;
+}
+.history{
+    width: 1.4286em;
+}
+.video {
+    width: 1.2143em;
+}
+.later{
+    width: 1.2143em;
+}
+.liked{
+    width: 1.4286em;
+}
+.more{
+    width: 0.8571em;
+}
+.show{
+    width: 0.8571em;
+}
+.premium{
+    width: 1.2143em;
+}
+.gaming{
+    width: 1.4286em;
+}
+.live_svg{
+    width: 1.5714em;
+}
+.set{
+    width: 1.4286em;
+}
+.report{
+    width: 1.0714em;
+}
+.help{
+    width: 1.4286em;
+}
+.feedbk {
+    width: 1.4286em;
+}
 .left_menu a .text{
     display: inline-block;
     margin-left: 1.8571em;
     vertical-align: middle;
     font-weight: normal;
 }
-
+.left_menu.active{
+    width: 5.1429em;
+}
+.left_menu.active .text {
+    display: none;
+ }
 .row{
     display: flex;
     align-items: center;
@@ -159,7 +214,7 @@ form{
     background: #2860CD;
     margin-left:5.9286em;
 }
-.subscr{
+.subscribe{
     color: #606060;
     margin-left: 1.7143em;
     margin-bottom: 1.4286em;
@@ -167,7 +222,7 @@ form{
     font-weight: 500;
     font-size: 1em;
 }
-.more{
+.more_from{
     color: #606060;
     margin-left: 1.7143em;
     margin-bottom: 1.4286em;
@@ -175,7 +230,7 @@ form{
     font-weight: 500;
     font-size: 1em;
 }
-.show{
+.show_41{
     margin-bottom: 1.7146em;
 }
 .live{
