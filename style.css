@@ -132,7 +132,6 @@ form{
 .left_menu.active .library{
     margin-top: 0;
     width: 5.1429em;
-    height:5.2858em;
 }
 .home{
     width: 1.4286em;
@@ -193,6 +192,7 @@ form{
 }
 .left_menu.active{
     width: 5.1429em;
+    height: 100vh;
 }
 .left_menu.active .text {
     display: none;
